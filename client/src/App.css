@@ -3,4 +3,8 @@
     height: 100vh;
     
     background-color: var(--faint-purple);
+
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
 }

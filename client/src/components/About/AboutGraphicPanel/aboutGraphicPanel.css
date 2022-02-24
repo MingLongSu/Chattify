@@ -1,0 +1,39 @@
+.AboutGraphicPanel__graphic-panel { 
+    width: 400px; 
+    height: 100%;
+
+    background-color: var(--dark-purple);
+
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.graphic-panel__desc-container {  
+    user-select: none;
+
+    margin-top: 20px;
+
+    width: 100%;
+    height: calc(100% - 486px);
+
+    background-color: var(--light-purple);
+    color: var(--faint-purple);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.desc-container__desc-part-1 { 
+    font-size: 3rem; 
+}
+
+.desc-container__desc-part-2 { 
+    font-size: 5rem; 
+}
