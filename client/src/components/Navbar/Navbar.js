@@ -6,9 +6,9 @@ import './navbar.css';
 
 const Navbar = () => {
     const navigate = useNavigate();
-    const [isOnAbout, setIsOnAbout] = useState(false);
-    const [isOnChats, setIsOnChats] = useState(false);
-    const [isOnLogin, setIsOnLogin] = useState(false);
+    const [isOnAbout, setIsOnAbout] = useState(window.location.pathname === '/about');
+    const [isOnChats, setIsOnChats] = useState(window.location.pathname === '/chat');
+    const [isOnLogin, setIsOnLogin] = useState(window.location.pathname === '/');
 
     // navigates to a particular page based on the button's described location
     const navigatePages = (e) => { 

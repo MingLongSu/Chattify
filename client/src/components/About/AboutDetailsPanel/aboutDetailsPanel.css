@@ -1,0 +1,54 @@
+.AboutDetailsPanel__details-panel { 
+    user-select: none;
+
+    margin-left: auto;
+
+    width: 790px;
+    height: 100%; 
+
+    border-radius: 15px;
+
+    background-color: var(--dark-purple);
+    color: var(--faint-purple);
+
+    display: flex; 
+    flex-direction: column;
+}
+
+.details-panel__greeting { 
+    margin: 60px 0 0 30px;
+
+    font-size: 4rem;
+}
+
+.details-panel__pitch { 
+    margin: 55px 0 0 70px;
+
+    width: 650px;
+
+    font-size: 2rem;
+}
+
+.details-panel__sign-up-ad { 
+    margin: 55px 0 0 70px;
+
+    width: 650px; 
+
+    font-size: 2rem;
+}
+
+.details-panel__sign-up-button { 
+    cursor: pointer;
+
+    margin: 55px 0 0 70px;
+
+    width: 200px;
+    height: 75px;
+
+    font-size: 1.5rem;
+
+    background-color: var(--light-purple);
+    color: var(--faint-purple);
+    border: none;
+    border-radius: 5px;
+}

@@ -5,7 +5,6 @@ import About from './components/About/About';
 import Chats from "./components/Chats/Chats";
 import Login from "./components/Login/Login";
 
-
 import './App.css';
 
 function App() {
