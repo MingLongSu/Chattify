@@ -9,6 +9,7 @@
     border-radius: 15px;
 
     background-color: var(--dark-purple);
+    background-image: url(../../../assets/aboutPageDetailsPanelBackground.svg);
     color: var(--faint-purple);
 
     display: flex; 
@@ -49,6 +50,7 @@
 
     background-color: var(--light-purple);
     color: var(--faint-purple);
-    border: none;
-    border-radius: 5px;
+    
+    border: 5px solid var(--faint-purple);
+    border-radius: 15px;
 }

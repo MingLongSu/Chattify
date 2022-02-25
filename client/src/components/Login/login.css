@@ -1,0 +1,10 @@
+.Login__panels-container { 
+    margin-top: 120px;
+
+    width: 1200px;
+    height: 700px;
+
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+}

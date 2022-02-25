@@ -5,7 +5,6 @@ import AboutDetailsPanel from './AboutDetailsPanel/AboutDetailsPanel';
 
 import './about.css'
 
-
 const About = () => {
   return (
     <div className='About__panels-container'>
