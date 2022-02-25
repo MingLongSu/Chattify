@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import ChattifyLogo from '../../assets/chattifyLogoSVGComponent';
+
 import './navbar.css';
 
 const Navbar = () => {

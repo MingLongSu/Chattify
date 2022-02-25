@@ -1,0 +1,57 @@
+.LoginGraphicsPanel__graphic-panel { 
+    width: 400px; 
+    height: 100%;
+
+    background-color: var(--dark-purple);
+
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.graphic-panel__graphics-container { 
+    width: 100%; 
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.graphics-container__text-bubble-one { 
+    margin-top: 15px;
+    margin-left: auto;
+
+    width: 150px;
+
+    display: flex; 
+    justify-self: center;
+}
+
+.graphics-container__text-bubble-two { 
+    margin-right: auto;
+
+    display: flex; 
+    justify-self: center;
+}
+
+.graphics-container__desc-container { 
+    user-select: none;
+
+    margin-top: 15px;
+
+    width: 100%;
+    height: calc(100% - 470px);
+
+    background-color: var(--light-purple);
+    color: var(--faint-purple);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,16 @@
+.LoginDetailPanel__detail-panel { 
+    user-select: none;
+
+    margin-left: auto;
+
+    width: 790px;
+    height: 100%; 
+
+    border-radius: 15px;
+
+    background-color: var(--dark-purple);
+    color: var(--faint-purple);
+
+    display: flex; 
+    flex-direction: column;
+}
